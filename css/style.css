@@ -1,0 +1,91 @@
+/* ========================================================
+   WD4E - Introduction to CSS3: Homework 1
+   Styling Your First Page
+   ======================================================== */
+
+/* 1. Body: Sửa font-family và font-size */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+/* 2. Header: Sửa background-color */
+header {
+  background-color: #1e3a5f;
+  padding: 20px;
+}
+
+/* 3. Nav: Sửa background-color */
+nav {
+  background-color: #2c4d75;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 4. Main: Sửa background-color và font-size */
+main {
+  background-color: #f4f6f8;
+  font-size: 18px;
+  padding: 20px;
+  min-height: 400px;
+}
+
+/* 5. Footer: Sửa background-color */
+footer {
+  background-color: #1e3a5f;
+  padding: 15px;
+  text-align: center;
+}
+
+/* 6. List items (li): Bắt buộc sửa display và width */
+li {
+  display: inline-block;
+  width: 150px;
+  margin: 5px;
+}
+
+/* 7. Heading 1 (h1): Sửa text-align, font-family và color */
+h1 {
+  text-align: center;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: #ffffff;
+}
+
+/* 8. Paragraph (p): Sửa line-height */
+p {
+  line-height: 1.6;
+  color: #222222;
+}
+
+/* ========================================================
+   Style bổ trợ để ĐẠT 100% ĐỘ TƯƠNG PHẢN WAVE (WCAG AAA)
+   ======================================================== */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+  color: #ffd166;
+}
+
+main a {
+  color: #0b5394;
+  text-decoration: underline;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffd166;
+  text-decoration: underline;
+}
